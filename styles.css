@@ -652,8 +652,8 @@ a { color: inherit; text-decoration: none; }
   padding: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  justify-content: center;
+  gap: 28px;
 }
 .pipeline__stage {
   flex: 1 1 0;
@@ -666,11 +666,11 @@ a { color: inherit; text-decoration: none; }
 }
 .pipeline__viz {
   width: 100%;
-  max-width: 240px;
+  max-width: 260px;
   color: var(--cream-200);
-  padding: 20px 20px 22px;
+  padding: 22px 22px 24px;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 10px;
   background: rgba(240, 229, 204, 0.025);
   transition: border-color 280ms var(--ease-soft), background-color 280ms var(--ease-soft);
 }
@@ -686,18 +686,18 @@ a { color: inherit; text-decoration: none; }
 .pipeline__num {
   font-family: var(--font-mono);
   font-size: 11px;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--cream-400);
   margin-top: 4px;
 }
 .pipeline__label {
   font-family: var(--font-serif);
-  font-size: clamp(20px, 1.6vw, 24px);
+  font-size: clamp(20px, 1.5vw, 24px);
   font-weight: 400;
   line-height: 1.15;
   letter-spacing: -0.005em;
   color: var(--cream-50);
-  margin: -4px 0 2px;
+  margin: -2px 0 0;
 }
 .pipeline__desc {
   font-size: 14px;
@@ -707,21 +707,22 @@ a { color: inherit; text-decoration: none; }
   max-width: 28ch;
 }
 .pipeline__arrow {
-  flex: 0 0 36px;
+  flex: 0 0 28px;
   color: var(--cream-300);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -62px; /* pull up so arrow aligns with viz center, not stage center */
+  margin-top: -60px; /* pull up so arrow aligns with viz center, not stage center */
+  opacity: 0.75;
 }
 .pipeline__arrow svg { width: 100%; height: auto; }
 .pipeline__caption {
-  margin: 56px auto 0;
+  margin: 64px auto 0;
   max-width: 720px;
   text-align: center;
   font-family: var(--font-serif);
   font-size: clamp(18px, 1.6vw, 22px);
-  line-height: 1.4;
+  line-height: 1.45;
   color: var(--cream-200);
 }
 .pipeline__caption em { font-style: italic; color: var(--rose); }
@@ -982,18 +983,24 @@ a { color: inherit; text-decoration: none; }
   .pipeline {
     flex-direction: column;
     align-items: center;
-    gap: 14px;
+    gap: 18px;
   }
-  .pipeline__stage { flex: 1 1 auto; width: 100%; max-width: 420px; }
-  .pipeline__viz { max-width: 420px; }
+  .pipeline__stage {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 360px;
+    gap: 12px;
+  }
+  .pipeline__viz { max-width: 360px; padding: 20px 20px 22px; }
   .pipeline__desc { max-width: 40ch; }
   .pipeline__arrow {
     flex: 0 0 auto;
     margin: 0;
     transform: rotate(90deg);
-    width: 36px;
+    width: 28px;
+    opacity: 0.6;
   }
-  .pipeline__caption { margin-top: 40px; }
+  .pipeline__caption { margin-top: 48px; font-size: 18px; }
 }
 @media (max-width: 560px) {
   :root { --gutter: 22px; }
