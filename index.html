@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Frist — Data infrastructure for computer use</title>
-  <meta name="description" content="Frist builds pixel-perfect, interactive replicas of websites at internet scale — a world model where frontier computer-use agents learn to operate real software." />
+  <meta name="description" content="Frist builds interactive replicas of real websites and desktop apps at internet scale — training environments where computer-use agents learn to operate real software." />
   <meta name="theme-color" content="#66023C" />
 
   <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
@@ -25,6 +25,7 @@
       <nav class="nav__links" aria-label="Primary">
         <a href="#thesis" class="nav__link">Thesis</a>
         <a href="#environments" class="nav__link">Environments</a>
+        <a href="#synthetic-internet" class="nav__link">Training</a>
         <a href="#throughput" class="nav__link">Throughput</a>
         <a href="#long-arc" class="nav__link">Long arc</a>
       </nav>
@@ -44,8 +45,7 @@
         Data infrastructure<br />for <em>computer use.</em>
       </h1>
       <p class="hero__sub" data-reveal style="--reveal-delay:160ms;">
-        Training environments for computer-use agents — interactive replicas of
-        real websites and desktop apps, at internet scale.
+        Training environments for computer-use agents, at internet scale.
       </p>
       <div class="hero__cta" data-reveal style="--reveal-delay:240ms;">
         <a href="#contact" class="btn">Get in touch <span class="arrow">→</span></a>
@@ -60,6 +60,101 @@
     </div>
   </section>
 
+  <!-- ============ PROCESS STRIP ============ -->
+  <section class="process" aria-label="How it works">
+    <div class="container">
+      <ol class="process__flow">
+        <li class="process__step" data-reveal>
+          <div class="process__viz" aria-hidden="true">
+            <svg viewBox="0 0 140 80" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round">
+              <rect x="2" y="2" width="136" height="76" rx="4" opacity="0.55"/>
+              <line x1="2" y1="18" x2="138" y2="18" opacity="0.35"/>
+              <circle cx="10" cy="10" r="1.5" fill="currentColor" stroke="none" opacity="0.6"/>
+              <circle cx="16" cy="10" r="1.5" fill="currentColor" stroke="none" opacity="0.6"/>
+              <circle cx="22" cy="10" r="1.5" fill="currentColor" stroke="none" opacity="0.6"/>
+              <rect x="34" y="5" width="80" height="10" rx="5" opacity="0.3"/>
+              <rect x="8" y="26" width="124" height="44" rx="2" opacity="0.28"/>
+              <line x1="14" y1="34" x2="74" y2="34" opacity="0.55" stroke-width="1.2"/>
+              <line x1="14" y1="42" x2="54" y2="42" opacity="0.32"/>
+              <line x1="14" y1="50" x2="60" y2="50" opacity="0.32"/>
+              <line x1="14" y1="58" x2="46" y2="58" opacity="0.28"/>
+              <circle cx="130" cy="10" r="2" fill="currentColor" stroke="none" opacity="0.9"/>
+            </svg>
+          </div>
+          <span class="process__num">01</span>
+          <span class="process__label">Live Software</span>
+        </li>
+
+        <li class="process__arrow" aria-hidden="true">
+          <svg viewBox="0 0 56 12" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+            <line x1="2" y1="6" x2="46" y2="6" opacity="0.55"/>
+            <path d="M40 2 L46 6 L40 10" opacity="0.7"/>
+          </svg>
+        </li>
+
+        <li class="process__step" data-reveal style="--reveal-delay:80ms;">
+          <div class="process__viz" aria-hidden="true">
+            <svg viewBox="0 0 140 80" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round">
+              <rect x="8" y="8" width="130" height="70" rx="4" opacity="0.3"/>
+              <rect x="2" y="2" width="130" height="70" rx="4" opacity="0.75"/>
+              <line x1="2" y1="16" x2="132" y2="16" opacity="0.45"/>
+              <circle cx="10" cy="9" r="1.5" fill="currentColor" stroke="none" opacity="0.7"/>
+              <circle cx="16" cy="9" r="1.5" fill="currentColor" stroke="none" opacity="0.7"/>
+              <circle cx="22" cy="9" r="1.5" fill="currentColor" stroke="none" opacity="0.7"/>
+              <rect x="34" y="5" width="76" height="8" rx="4" opacity="0.35"/>
+              <rect x="8" y="22" width="118" height="44" rx="2" opacity="0.32"/>
+              <line x1="14" y1="30" x2="70" y2="30" opacity="0.6" stroke-width="1.2"/>
+              <line x1="14" y1="38" x2="52" y2="38" opacity="0.38"/>
+              <line x1="14" y1="46" x2="58" y2="46" opacity="0.38"/>
+              <line x1="14" y1="54" x2="44" y2="54" opacity="0.32"/>
+            </svg>
+          </div>
+          <span class="process__num">02</span>
+          <span class="process__label">Digital Twin</span>
+        </li>
+
+        <li class="process__arrow" aria-hidden="true">
+          <svg viewBox="0 0 56 12" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+            <line x1="2" y1="6" x2="46" y2="6" opacity="0.55"/>
+            <path d="M40 2 L46 6 L40 10" opacity="0.7"/>
+          </svg>
+        </li>
+
+        <li class="process__step" data-reveal style="--reveal-delay:160ms;">
+          <div class="process__viz" aria-hidden="true">
+            <svg viewBox="0 0 140 80" fill="none" stroke="currentColor" stroke-width="1">
+              <g class="process__lines" stroke-opacity="0.4" stroke-width="0.8">
+                <line x1="18" y1="40" x2="80" y2="16"/>
+                <line x1="18" y1="40" x2="80" y2="40"/>
+                <line x1="18" y1="40" x2="80" y2="64"/>
+                <line x1="18" y1="40" x2="104" y2="16"/>
+                <line x1="18" y1="40" x2="104" y2="40"/>
+                <line x1="18" y1="40" x2="104" y2="64"/>
+                <line x1="18" y1="40" x2="128" y2="16"/>
+                <line x1="18" y1="40" x2="128" y2="40"/>
+                <line x1="18" y1="40" x2="128" y2="64"/>
+              </g>
+              <circle cx="18" cy="40" r="8" fill="currentColor" stroke="none" opacity="0.9"/>
+              <g class="process__targets">
+                <circle cx="80"  cy="16" r="3"/>
+                <circle cx="80"  cy="40" r="3"/>
+                <circle cx="80"  cy="64" r="3"/>
+                <circle cx="104" cy="16" r="3"/>
+                <circle cx="104" cy="40" r="3"/>
+                <circle cx="104" cy="64" r="3"/>
+                <circle cx="128" cy="16" r="3"/>
+                <circle cx="128" cy="40" r="3"/>
+                <circle cx="128" cy="64" r="3"/>
+              </g>
+            </svg>
+          </div>
+          <span class="process__num">03</span>
+          <span class="process__label">High Throughput Simulation</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
   <!-- ============ THESIS ============ -->
   <section class="section" id="thesis">
     <div class="container">
@@ -70,13 +165,10 @@
           <em>Agents need somewhere to learn.</em>
         </h2>
         <p class="section__lede">
-          Frontier labs are racing to build computer-use agents that can automate the
-          $3 trillion of human labor spent on a computer every year. The models aren't
-          struggling because they're dumb — they haven't had enough practice. Ask
-          Einstein to book a JetBlue flight and he'll figure it out, slowly. Give a
-          ten-year-old three months on an iPad and they'll crush it. Models need
-          muscle memory. Muscle memory needs surface area. That's the gap Frist
-          closes.
+          The race is on to automate the $3 trillion of work done on a computer
+          each year. Models don't lack intelligence — what they lack is
+          experience. Frist builds the training ground where models and agents
+          can gain experience.
         </p>
       </header>
 
@@ -85,9 +177,8 @@
           <span class="thesis__num">01 — Opportunity</span>
           <h3 class="thesis__h">A $3 trillion market.</h3>
           <p class="thesis__p">
-            Automating even a fraction of the work people do on a computer is the
-            biggest economic prize in software since the browser. Every lab building
-            a frontier model is pointed at it.
+            The biggest economic prize in software since the browser. Every
+            frontier lab is pointed at it.
           </p>
         </article>
 
@@ -95,10 +186,8 @@
           <span class="thesis__num">02 — Bottleneck</span>
           <h3 class="thesis__h">Labs are environment-constrained.</h3>
           <p class="thesis__p">
-            The bottleneck isn't compute or intelligence — it's realistic environments
-            where agents can train. There's a gap between a model that can use a
-            website on a benchmark and one that can do so in the wild. Environments
-            are how that gap closes.
+            The gap between "works on a benchmark" and "works in the wild" closes
+            through environments, not parameters.
           </p>
         </article>
 
@@ -106,9 +195,8 @@
           <span class="thesis__num">03 — Surface</span>
           <h3 class="thesis__h">Every site. Every app.</h3>
           <p class="thesis__p">
-            Computer use isn't just the browser. Agents need to operate desktop
-            applications, multi-step workflows, and the full surface of a person's
-            workday. The training ground has to cover all of it.
+            Browsers aren't enough. Agents need the full surface of a workday —
+            web, desktop, and everything between.
           </p>
         </article>
       </div>
@@ -125,10 +213,8 @@
           <em>for agents.</em>
         </h2>
         <p class="section__lede">
-          Pixel-perfect, fully interactive replicas of real software. The entire
-          computing surface — web and desktop — rebuilt at the fidelity agents need to
-          learn from. We're building toward a complete interactive replica of the
-          internet itself.
+          Pixel-perfect, fully interactive replicas of real software — web and
+          desktop, rebuilt at the fidelity agents need to learn from.
         </p>
       </header>
 
@@ -174,9 +260,8 @@
           <span class="capability__label">Web environments</span>
           <h3 class="capability__h">Any live web application,<br /><em>rebuilt.</em></h3>
           <p class="capability__p">
-            DOM-accurate, fully interactive replicas of real websites. Every button,
-            every form, every state transition — indistinguishable from the original
-            at the resolution agents need to train against.
+            DOM-accurate replicas of real websites — every button, form, and
+            state transition, indistinguishable from the original.
           </p>
           <div class="capability__tags">
             <span class="tag">pixel-perfect</span>
@@ -234,9 +319,8 @@
           <span class="capability__label">Desktop environments</span>
           <h3 class="capability__h">Native apps and<br /><em>real workflows.</em></h3>
           <p class="capability__p">
-            Desktop applications, operating systems, and cross-app flows — the other
-            half of the computing surface. Same fidelity, same interactivity, at the
-            same scale.
+            Desktop applications and cross-app flows — the other half of the
+            computing surface, at the same fidelity and scale.
           </p>
           <div class="capability__tags">
             <span class="tag">native</span>
@@ -251,29 +335,201 @@
           <div class="spec__label">Runs offline</div>
           <h4 class="spec__h">No server, no CAPTCHAs.</h4>
           <p class="spec__p">
-            Every environment is fully self-contained. No network latency, no rate
-            limits, no anti-bot checks standing between the agent and the lesson.
+            Self-contained. No latency, no rate limits, no anti-bot checks.
           </p>
         </div>
         <div class="spec">
           <div class="spec__label">Deterministic state</div>
           <h4 class="spec__h">Reset, branch, replay.</h4>
           <p class="spec__p">
-            State is first-class. Any environment can be rewound to a known point,
-            forked for parallel rollouts, and replayed as many times as training
-            requires.
+            Any environment can be rewound, forked, and replayed — as many times
+            as training requires.
           </p>
         </div>
         <div class="spec">
           <div class="spec__label">Training speed</div>
           <h4 class="spec__h">Millions of rollouts.</h4>
           <p class="spec__p">
-            Built from the start for RL. Environments scale horizontally and run at
-            training speed, not human speed — enough surface area for the muscle memory
-            agents need.
+            Built for RL. Scales horizontally at training speed, not human speed.
           </p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ============ SYNTHETIC INTERNET ============ -->
+  <section class="section" id="synthetic-internet">
+    <div class="container">
+      <header class="section__head" data-reveal>
+        <span class="eyebrow">Training</span>
+        <h2 class="section__title">
+          Training on the<br /><em>synthetic internet.</em>
+        </h2>
+        <p class="section__lede">
+          An engine runs inside every twin — synthesizing tasks, executing
+          rollouts, verifying rewards, streaming curated trajectories. The
+          internet, rebuilt, turned into curriculum.
+        </p>
+      </header>
+
+      <ol class="pipeline" data-reveal>
+        <li class="pipeline__stage">
+          <div class="pipeline__viz" aria-hidden="true">
+            <svg viewBox="0 0 160 112" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+              <rect x="4" y="8" width="104" height="72" rx="4" opacity="0.32"/>
+              <line x1="4" y1="22" x2="108" y2="22" opacity="0.24"/>
+              <circle cx="10" cy="15" r="1.2" fill="currentColor" stroke="none" opacity="0.4"/>
+              <circle cx="16" cy="15" r="1.2" fill="currentColor" stroke="none" opacity="0.4"/>
+              <circle cx="22" cy="15" r="1.2" fill="currentColor" stroke="none" opacity="0.4"/>
+              <line x1="10" y1="32" x2="58" y2="32" opacity="0.26"/>
+              <line x1="10" y1="44" x2="72" y2="44" opacity="0.22"/>
+              <line x1="10" y1="52" x2="54" y2="52" opacity="0.22"/>
+              <line x1="10" y1="60" x2="68" y2="60" opacity="0.22"/>
+              <line x1="10" y1="68" x2="50" y2="68" opacity="0.22"/>
+              <rect x="68" y="46" width="84" height="18" rx="2" opacity="0.78"/>
+              <circle cx="76" cy="55" r="2" opacity="0.95"/>
+              <line x1="82" y1="55" x2="142" y2="55" opacity="0.85" stroke-width="1.2"/>
+              <rect x="72" y="68" width="84" height="18" rx="2" opacity="0.56"/>
+              <circle cx="80" cy="77" r="2" opacity="0.75"/>
+              <line x1="86" y1="77" x2="140" y2="77" opacity="0.55"/>
+              <rect x="76" y="90" width="84" height="18" rx="2" opacity="0.34"/>
+              <circle cx="84" cy="99" r="2" opacity="0.5"/>
+              <line x1="90" y1="99" x2="138" y2="99" opacity="0.35"/>
+            </svg>
+          </div>
+          <span class="pipeline__num">01</span>
+          <h3 class="pipeline__label">Task synthesis</h3>
+          <p class="pipeline__desc">
+            Goals generated from environment structure — millions per site,
+            graded by difficulty.
+          </p>
+        </li>
+
+        <li class="pipeline__arrow" aria-hidden="true">
+          <svg viewBox="0 0 56 12" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+            <line x1="2" y1="6" x2="46" y2="6" opacity="0.45"/>
+            <path d="M40 2 L46 6 L40 10" opacity="0.7"/>
+          </svg>
+        </li>
+
+        <li class="pipeline__stage">
+          <div class="pipeline__viz" aria-hidden="true">
+            <svg viewBox="0 0 160 112" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+              <rect x="6" y="6" width="148" height="100" rx="4" opacity="0.55"/>
+              <line x1="6" y1="22" x2="154" y2="22" opacity="0.35"/>
+              <circle cx="14" cy="14" r="1.4" fill="currentColor" stroke="none" opacity="0.6"/>
+              <circle cx="20" cy="14" r="1.4" fill="currentColor" stroke="none" opacity="0.6"/>
+              <circle cx="26" cy="14" r="1.4" fill="currentColor" stroke="none" opacity="0.6"/>
+              <rect x="40" y="10" width="96" height="8" rx="4" opacity="0.3"/>
+              <line x1="18" y1="36" x2="86" y2="36" opacity="0.3"/>
+              <line x1="18" y1="46" x2="70" y2="46" opacity="0.22"/>
+              <rect x="108" y="30" width="36" height="22" rx="2" opacity="0.35"/>
+              <path d="M18 80 C32 80 34 66 46 66 C62 66 64 54 78 54 C92 54 94 62 106 62 C122 62 120 46 134 46" opacity="0.7" stroke-dasharray="3 2.5"/>
+              <circle cx="18" cy="80" r="3" fill="currentColor" stroke="none" opacity="0.9"/>
+              <circle cx="46" cy="66" r="2.2" fill="currentColor" stroke="none" opacity="0.75"/>
+              <circle cx="78" cy="54" r="2.2" fill="currentColor" stroke="none" opacity="0.65"/>
+              <circle cx="106" cy="62" r="2.2" fill="currentColor" stroke="none" opacity="0.55"/>
+              <path d="M132 42 L144 48 L136 48 L138 55 L134 56 L132 50 L128 52 Z" fill="currentColor" stroke="none" opacity="0.95"/>
+              <line x1="18" y1="96" x2="56" y2="96" opacity="0.35"/>
+              <line x1="64" y1="96" x2="92" y2="96" opacity="0.22"/>
+              <line x1="100" y1="96" x2="128" y2="96" opacity="0.22"/>
+            </svg>
+          </div>
+          <span class="pipeline__num">02</span>
+          <h3 class="pipeline__label">Rollouts</h3>
+          <p class="pipeline__desc">
+            Agents attempt tasks inside twins, at training speed, thousands
+            in parallel.
+          </p>
+        </li>
+
+        <li class="pipeline__arrow" aria-hidden="true">
+          <svg viewBox="0 0 56 12" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+            <line x1="2" y1="6" x2="46" y2="6" opacity="0.45"/>
+            <path d="M40 2 L46 6 L40 10" opacity="0.7"/>
+          </svg>
+        </li>
+
+        <li class="pipeline__stage">
+          <div class="pipeline__viz" aria-hidden="true">
+            <svg viewBox="0 0 160 112" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+              <rect x="8" y="14" width="88" height="84" rx="3" opacity="0.42"/>
+              <line x1="16" y1="28" x2="82" y2="28" opacity="0.45" stroke-width="1.2"/>
+              <line x1="16" y1="40" x2="66" y2="40" opacity="0.25"/>
+              <line x1="16" y1="48" x2="74" y2="48" opacity="0.25"/>
+              <line x1="16" y1="60" x2="60" y2="60" opacity="0.22"/>
+              <line x1="16" y1="68" x2="78" y2="68" opacity="0.22"/>
+              <line x1="16" y1="80" x2="54" y2="80" opacity="0.22"/>
+              <line x1="16" y1="88" x2="70" y2="88" opacity="0.22"/>
+              <circle cx="126" cy="56" r="22" opacity="0.55" stroke-width="1.3"/>
+              <circle cx="126" cy="56" r="28" opacity="0.2"/>
+              <path d="M115 57 L123 65 L138 48" opacity="0.98" stroke-width="2"/>
+              <line x1="102" y1="92" x2="152" y2="92" opacity="0.35"/>
+              <line x1="108" y1="100" x2="146" y2="100" opacity="0.22"/>
+            </svg>
+          </div>
+          <span class="pipeline__num">03</span>
+          <h3 class="pipeline__label">Verifiers</h3>
+          <p class="pipeline__desc">
+            Deterministic rewards from twin state — no judges, no
+            LLM-as-graders.
+          </p>
+        </li>
+
+        <li class="pipeline__arrow" aria-hidden="true">
+          <svg viewBox="0 0 56 12" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+            <line x1="2" y1="6" x2="46" y2="6" opacity="0.45"/>
+            <path d="M40 2 L46 6 L40 10" opacity="0.7"/>
+          </svg>
+        </li>
+
+        <li class="pipeline__stage">
+          <div class="pipeline__viz" aria-hidden="true">
+            <svg viewBox="0 0 160 112" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+              <rect x="4" y="28" width="152" height="56" rx="2" opacity="0.4"/>
+              <rect x="4" y="28" width="152" height="6" opacity="0.55"/>
+              <rect x="4" y="78" width="152" height="6" opacity="0.55"/>
+              <rect x="10" y="40" width="30" height="32" rx="1.5" opacity="0.78"/>
+              <rect x="46" y="40" width="30" height="32" rx="1.5" opacity="0.66"/>
+              <rect x="82" y="40" width="30" height="32" rx="1.5" opacity="0.54"/>
+              <rect x="118" y="40" width="30" height="32" rx="1.5" opacity="0.42"/>
+              <circle cx="14" cy="31" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="30" cy="31" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="46" cy="31" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="62" cy="31" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="78" cy="31" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="94" cy="31" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="110" cy="31" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="126" cy="31" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="142" cy="31" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="14" cy="81" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="30" cy="81" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="46" cy="81" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="62" cy="81" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="78" cy="81" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="94" cy="81" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="110" cy="81" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="126" cy="81" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="142" cy="81" r="1.1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <line x1="10" y1="96" x2="54" y2="96" opacity="0.4" stroke-width="1.2"/>
+              <line x1="60" y1="96" x2="92" y2="96" opacity="0.24"/>
+              <line x1="98" y1="96" x2="132" y2="96" opacity="0.24"/>
+              <line x1="138" y1="96" x2="150" y2="96" opacity="0.24"/>
+            </svg>
+          </div>
+          <span class="pipeline__num">04</span>
+          <h3 class="pipeline__label">Trajectories</h3>
+          <p class="pipeline__desc">
+            Action, state, reward — streamed, labeled, ready for on-policy
+            RL or SFT.
+          </p>
+        </li>
+      </ol>
+
+      <p class="pipeline__caption" data-reveal style="--reveal-delay:120ms;">
+        Every captured site and app, running continuously —
+        <em>the synthetic internet, producing its own training data.</em>
+      </p>
     </div>
   </section>
 
@@ -297,22 +553,21 @@
           <h3 class="mode__h">Training methods<br /><em>human demos can't support.</em></h3>
           <p class="mode__p">
             Modern on-policy RL — GRPO and what comes next — demands rollout
-            volumes no human-demonstration pipeline can reach. Twins fork from
-            any state, run at training speed, and feed the RL loop directly.
+            volumes no human pipeline can reach. Twins fork, run at training
+            speed, and feed the loop directly.
           </p>
         </article>
         <article class="mode" style="--reveal-delay:120ms;">
           <span class="mode__label">Synthetic trajectories</span>
           <h3 class="mode__h">1000× the volume of<br /><em>human demonstrations.</em></h3>
           <p class="mode__p">
-            When supervised training needs video or screenshot data, generate it
-            inside the twin at a scale human pipelines can't match — every action
-            reproducible, every pixel labelable.
+            When training needs video or screenshots, generate it in the twin —
+            every action reproducible, every pixel labelable.
           </p>
         </article>
       </div>
 
-      <figure class="rollout-band" data-reveal style="--reveal-delay:160ms;">
+      <figure class="rollout-band" data-reveal style="--reveal-delay:160ms;" aria-label="Parallel rollout fanout">
         <div class="rollout-band__viz" aria-hidden="true">
           <svg viewBox="0 0 680 320" fill="none" preserveAspectRatio="xMidYMid meet">
             <g class="rollout-band__lines" stroke="currentColor">
@@ -396,50 +651,109 @@
         <span class="eyebrow">The long arc</span>
         <h2 class="section__title">
           Computer use is<br />
-          <em>a permanent layer.</em>
+          <em>permanent infrastructure.</em>
         </h2>
         <p class="section__lede">
-          Most software people touch every day doesn't expose an API. Emerging
-          agent-to-app standards are early, partial, and years from covering the long
-          tail — many can't even complete a transaction today. Agents that can
-          operate real interfaces are the backward-compatibility layer for the entire
-          stack, and they'll be needed for a long time. As they get cheaper and more
-          capable, use cases unlock themselves.
+          Most software will never expose an API, and emerging agent standards
+          won't cover the long tail for years. Computer use is the interface
+          that already works on everything — and always will.
         </p>
       </header>
 
       <div class="unlocks">
         <article class="unlock" data-reveal>
+          <div class="unlock__wire" aria-hidden="true">
+            <svg viewBox="0 0 120 56" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round">
+              <rect x="4" y="6" width="112" height="46" rx="2" opacity="0.5"/>
+              <line x1="4" y1="14" x2="116" y2="14" opacity="0.3"/>
+              <circle cx="8"  cy="10" r="1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="12" cy="10" r="1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="16" cy="10" r="1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <line x1="30" y1="14" x2="30" y2="52" opacity="0.3"/>
+              <line x1="8"  y1="20" x2="24" y2="20" opacity="0.6" stroke-width="1.2"/>
+              <line x1="8"  y1="26" x2="22" y2="26" opacity="0.35"/>
+              <line x1="8"  y1="32" x2="25" y2="32" opacity="0.35"/>
+              <line x1="8"  y1="38" x2="20" y2="38" opacity="0.35"/>
+              <line x1="8"  y1="44" x2="23" y2="44" opacity="0.35"/>
+              <line x1="36" y1="20" x2="88" y2="20" opacity="0.5"/>
+              <line x1="36" y1="28" x2="100" y2="28" opacity="0.32"/>
+              <line x1="36" y1="34" x2="92" y2="34" opacity="0.32"/>
+              <line x1="36" y1="40" x2="98" y2="40" opacity="0.32"/>
+              <line x1="36" y1="46" x2="86" y2="46" opacity="0.32"/>
+              <path d="M92 34 L100 38 L96 38 L98 43 L95 44 L93 39 L92 42 Z" fill="currentColor" stroke="none" opacity="0.95"/>
+            </svg>
+          </div>
           <span class="unlock__num">01</span>
           <h3 class="unlock__h">Enterprise automation</h3>
           <p class="unlock__p">
-            A structural replacement for brittle RPA. Agents that operate the software
-            employees already use — no integration project required.
+            A structural replacement for brittle RPA. Agents operate the
+            software employees already use.
           </p>
         </article>
         <article class="unlock" data-reveal style="--reveal-delay:80ms;">
+          <div class="unlock__wire" aria-hidden="true">
+            <svg viewBox="0 0 120 56" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round">
+              <rect x="22" y="10" width="52" height="44" rx="2" opacity="0.28"/>
+              <rect x="36" y="4"  width="52" height="44" rx="2" opacity="0.6"/>
+              <line x1="40" y1="12" x2="72" y2="12" opacity="0.8" stroke-width="1.4"/>
+              <line x1="40" y1="20" x2="84" y2="20" opacity="0.3"/>
+              <line x1="40" y1="26" x2="80" y2="26" opacity="0.4"/>
+              <line x1="40" y1="32" x2="76" y2="32" opacity="0.4"/>
+              <line x1="40" y1="38" x2="82" y2="38" opacity="0.4"/>
+              <circle cx="78" cy="42" r="6" opacity="0.75"/>
+              <path d="M75 42 L77 44 L81 40" opacity="0.95" stroke-linecap="round"/>
+            </svg>
+          </div>
           <span class="unlock__num">02</span>
           <h3 class="unlock__h">Regulated verticals</h3>
           <p class="unlock__p">
-            Healthcare, legal, and financial workflows that live inside legacy systems
-            without modern APIs. The most valuable, least accessible surface.
+            Healthcare, legal, financial — the highest-value workflows, and
+            the least API-accessible.
           </p>
         </article>
         <article class="unlock" data-reveal style="--reveal-delay:160ms;">
+          <div class="unlock__wire" aria-hidden="true">
+            <svg viewBox="0 0 120 56" fill="none">
+              <line x1="8" y1="46" x2="112" y2="46" stroke="currentColor" stroke-width="1" opacity="0.35"/>
+              <rect x="10"  y="10" width="8" height="36" fill="currentColor" opacity="0.78"/>
+              <rect x="22"  y="16" width="8" height="30" fill="currentColor" opacity="0.68"/>
+              <rect x="34"  y="22" width="8" height="24" fill="currentColor" opacity="0.58"/>
+              <rect x="46"  y="28" width="8" height="18" fill="currentColor" opacity="0.5"/>
+              <rect x="58"  y="32" width="8" height="14" fill="currentColor" opacity="0.42"/>
+              <rect x="70"  y="35" width="8" height="11" fill="currentColor" opacity="0.36"/>
+              <rect x="82"  y="37" width="8" height="9"  fill="currentColor" opacity="0.3"/>
+              <rect x="94"  y="39" width="8" height="7"  fill="currentColor" opacity="0.26"/>
+              <rect x="106" y="40" width="6" height="6"  fill="currentColor" opacity="0.22"/>
+            </svg>
+          </div>
           <span class="unlock__num">03</span>
           <h3 class="unlock__h">The long tail</h3>
           <p class="unlock__p">
-            Small businesses, restaurants, hospitality, and the long tail of consumer
-            software that will never ship an API or an MCP — but still runs the
-            economy.
+            Small businesses, restaurants, hospitality — software that will
+            never ship an API, but still runs the economy.
           </p>
         </article>
         <article class="unlock" data-reveal style="--reveal-delay:240ms;">
+          <div class="unlock__wire" aria-hidden="true">
+            <svg viewBox="0 0 120 56" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round">
+              <rect x="4" y="6" width="112" height="46" rx="2" opacity="0.55"/>
+              <line x1="4" y1="14" x2="116" y2="14" opacity="0.3"/>
+              <circle cx="8"  cy="10" r="1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="12" cy="10" r="1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <circle cx="16" cy="10" r="1" fill="currentColor" stroke="none" opacity="0.55"/>
+              <path d="M10 21 L14 25 L10 29" opacity="0.75" fill="none"/>
+              <rect x="18" y="23" width="48" height="3" fill="currentColor" stroke="none" opacity="0.55"/>
+              <rect x="10" y="31" width="72" height="3" fill="currentColor" stroke="none" opacity="0.32"/>
+              <rect x="10" y="37" width="60" height="3" fill="currentColor" stroke="none" opacity="0.32"/>
+              <path d="M10 43 L14 47 L10 51" opacity="0.75" fill="none"/>
+              <rect x="18" y="45" width="5" height="3" fill="currentColor" stroke="none" opacity="0.95"/>
+            </svg>
+          </div>
           <span class="unlock__num">04</span>
           <h3 class="unlock__h">Legacy systems</h3>
           <p class="unlock__p">
-            The decades of enterprise software that works, earns, and isn't going
-            anywhere. Computer use is how AI finally gets into those seats.
+            Decades of enterprise software that works and earns. Computer use is
+            how AI gets into those seats.
           </p>
         </article>
       </div>
@@ -450,11 +764,11 @@
   <section class="cta-band" id="contact">
     <div class="container">
       <h2 class="cta-band__h" data-reveal>
-        Let's build the <em>training ground</em><br />for the next decade of agents.
+        The <em>training ground</em><br />for the next generation of agents.
       </h2>
       <p class="cta-band__sub" data-reveal style="--reveal-delay:80ms;">
         We work with the labs training frontier models and the teams building
-        agents on top of them. If that's you, we'd like to talk.
+        agents on top. If that's you, we'd like to talk.
       </p>
       <a href="mailto:hello@frist.ai" class="cta-band__mail" data-reveal style="--reveal-delay:160ms;">
         hello@frist.ai →
@@ -472,11 +786,12 @@
       <nav class="footer__links" aria-label="Footer">
         <a href="#thesis">Thesis</a>
         <a href="#environments">Environments</a>
+        <a href="#synthetic-internet">Training</a>
         <a href="#throughput">Throughput</a>
         <a href="#long-arc">Long arc</a>
         <a href="mailto:hello@frist.ai">Contact</a>
       </nav>
-      <div class="footer__meta">Concierge Technologies, Inc. · 2025</div>
+      <div class="footer__meta">Concierge Technologies, Inc. · 2026</div>
     </div>
   </footer>
 
